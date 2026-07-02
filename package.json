@@ -1,0 +1,62 @@
+{
+	"name": "ifelse-match-highlight",
+	"displayName": "ifelse Match Highlight",
+	"description": "Highlight matching #if/#else/#elif/#endif when cursor is on a C preprocessor directive",
+	"version": "1.0.0",
+	"publisher": "local",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"keywords": [
+		"preprocessor",
+		"ifdef",
+		"ifndef",
+		"endif",
+		"highlight",
+		"match",
+		"c",
+		"cpp",
+		"assembly"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yourname/ifelse-match-highlight"
+	},
+	"license": "MIT",
+	"contributes": {
+		"configuration": {
+			"title": "ifelse Match Highlight",
+			"properties": {
+				"ifelseMatchHighlight.decorationColor": {
+					"type": "string",
+					"default": "rgba(255, 200, 0, 0.2)",
+					"description": "Background color for matching preprocessor directives"
+				},
+				"ifelseMatchHighlight.borderColor": {
+					"type": "string",
+					"default": "rgba(255, 180, 0, 0.8)",
+					"description": "Border color for matching preprocessor directives"
+				},
+				"ifelseMatchHighlight.enabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable/disable the extension"
+				}
+			}
+		}
+	},
+	"__metadata": {
+		"installedTimestamp": 1783004528239,
+		"targetPlatform": "undefined",
+		"size": 11921
+	}
+}

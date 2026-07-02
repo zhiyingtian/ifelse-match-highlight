@@ -1,13 +1,13 @@
 # ifelse Match Highlight
 
-[![Version](https://img.shields.io/visual-studio-marketplace/v/local.ifelse-match-highlight)](https://marketplace.visualstudio.com/items?itemName=local.ifelse-match-highlight)
+[![Version](https://img.shields.io/visual-studio-marketplace/v/tianzhiying.ifelse-match-highlight)](https://marketplace.visualstudio.com/items?itemName=tianzhiying.ifelse-match-highlight)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 When your cursor lands on a C/C++ preprocessor directive (`#if`, `#ifdef`, `#ifndef`, `#else`, `#elif`, `#endif`), **all matching directives in the same block are highlighted simultaneously** — even across hundreds of lines.
 
 ## Preview
 
-![demo](images/demo.png)
+![demo](https://raw.githubusercontent.com/zhiyingtian/ifelse-match-highlight/main/images/demo.png)
 
 ## Features
 

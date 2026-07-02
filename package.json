@@ -2,7 +2,7 @@
 	"name": "ifelse-match-highlight",
 	"displayName": "ifelse Match Highlight",
 	"description": "Highlight matching #if/#else/#elif/#endif when cursor is on a C preprocessor directive",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "tianzhiying",
 	"icon": "icon.png",
 	"engines": {
@@ -29,7 +29,7 @@
 	"main": "./extension.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/yourname/ifelse-match-highlight"
+		"url": "https://github.com/zhiyingtian/ifelse-match-highlight"
 	},
 	"license": "MIT",
 	"contributes": {

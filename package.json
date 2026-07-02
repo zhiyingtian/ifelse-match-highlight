@@ -3,7 +3,7 @@
 	"displayName": "ifelse Match Highlight",
 	"description": "Highlight matching #if/#else/#elif/#endif when cursor is on a C preprocessor directive",
 	"version": "1.0.0",
-	"publisher": "local",
+	"publisher": "tianzhiying",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.60.0"
